@@ -1,4 +1,4 @@
-#Requirements:
+# Requirements:
 	- python > 3.6
 	- libMR
 	- pandas
@@ -9,20 +9,20 @@
 	- hyperopt
 	
 	
-#Installation:
+# Installation:
 ```sh
 	$ pip install libmr, pandas, numpy, sklearn, matplotlib, seaborn, hyperopt
 ```	
 
 
-#Usage:
+# Usage:
 	- 'config.py' contains hyperparameter values related to EVM model.
 	- 'EVM.py' contains code for Extreme Value Machine OpenSet algorithm. training and testing data is passed in csv format.
 	- 'metrics.py' is used to obtain metrics such as Confusion Matrix, F-measure, Recognition Accuracy, Precision, Recall. 
 	- 'Hyperparameter_tuning.py' performs hyperparameter tuning for your dataset using Hyperopt library.
 	
 	
-#Attribution:
+# Attribution:
 This is an implementation of the Extreme Value Machine by Rudd et al., with minor changes from the original work.
 
 
