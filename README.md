@@ -11,11 +11,12 @@
 	
 # Installation:
 ```sh
-	$ pip install libmr, pandas, numpy, sklearn, matplotlib, seaborn, hyperopt
+$ pip install libmr, pandas, numpy, sklearn, matplotlib, seaborn, hyperopt
 ```	
 
 
 # Usage:
+	- 'sample_data_prep.py' contains code for modelling letter-recongition data to openset condition.
 	- 'config.py' contains hyperparameter values related to EVM model.
 	- 'EVM.py' contains code for Extreme Value Machine OpenSet algorithm. training and testing data is passed in csv format.
 	- 'metrics.py' is used to obtain metrics such as Confusion Matrix, F-measure, Recognition Accuracy, Precision, Recall. 
@@ -23,6 +24,7 @@
 	
 	
 # Attribution:
+
 This is an implementation of the Extreme Value Machine by Rudd et al., with minor changes from the original work.
 
 
